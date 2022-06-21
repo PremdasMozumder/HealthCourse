@@ -44,6 +44,6 @@ public class ContactHC {
 	public void verifysubmit() {
 		driver.findElement(submitbutton).click();
 		String title = driver.getTitle();
-		assertEquals(title, "success");
+		assertEquals(title, "Contact | Healthcourse - Educational Technology for Healthcare Professionals");
 	}
 }
